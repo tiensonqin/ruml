@@ -1,0 +1,35 @@
+{
+  "name": "ruml",
+  "version": "0.0.1",
+  "description": "rum ported to ocaml.",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world -clean-world",
+    "watch": "bsb -make-world -clean-world -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiensonqin/ruml.git"
+  },
+  "keywords": [
+    "ruml",
+    "rum",
+    "BuckleScript",
+    "Reason"
+  ],
+  "author": "Tienson Qin (tiensonqin@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiensonqin/ruml/issues"
+  },
+  "homepage": "https://github.com/tiensonqin/ruml#readme",
+  "devDependencies": {
+    "bs-platform": "^2.0.0"
+  },
+  "dependencies": {
+    "reason-react": "^0.2.4"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
